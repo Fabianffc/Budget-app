@@ -6,7 +6,6 @@ const compression = require("compression");
 //setting the port for the app in localhost to 3002
 const PORT = 3002 || process.env.PORT;
 
-
 const app = express();
 
 app.use(logger("dev"));
