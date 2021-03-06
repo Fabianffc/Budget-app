@@ -4,7 +4,7 @@ const logger = require("morgan");
 const mongoose = require("mongoose");
 const compression = require("compression");
 //setting the port for the app in localhost to 3002
-var PORT = 3002 || process.env.PORT;
+var PORT =   process.env.PORT || 8080;
 
 const app = express();
 
